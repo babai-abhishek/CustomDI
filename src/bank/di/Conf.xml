@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<request>
+<request type="BalanceCheck" business-class="bank.business.BalanceCheck">
+	<helper-class type="bank.dao.AccountMasterDao">bank.dao.AccountMasterDaoImpl</helper-class>
+</request>
+<request type="Deposit" business-class="bank.business.Deposit">
+	<helper-class type="bank.dao.AccountMasterDao">bank.dao.AccountMasterDaoImpl</helper-class>
+	<helper-class type="bank.dao.TransactionDao">bank.dao.TransactionDaoImpl</helper-class>
+</request>
+<request type="BankStatement" business-class="bank.business.BankStatement">
+	<helper-class type="bank.dao.TransactionDao">bank.dao.TransactionDaoImpl</helper-class>
+</request>
+<request type="Withdraw" business-class="bank.business.Withdraw">
+	<helper-class type="bank.dao.AccountMasterDao">bank.dao.AccountMasterDaoImpl</helper-class>
+	<helper-class type="bank.dao.TransactionDao">bank.dao.TransactionDaoImpl</helper-class>
+</request>
+<request type="NewAccount" business-class="bank.business.NewAccount">
+	<helper-class type="bank.dao.AccountMasterDao">bank.dao.AccountMasterDaoImpl</helper-class>
+</request>
+</request>

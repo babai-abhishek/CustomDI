@@ -1,0 +1,20 @@
+
+\
+java:S1161":Add the "@Override" annotation above this method signature(ƒî¿¥ùÿÿÿÿ8 ÷î‡2
+a
+java:S2147#"DCombine this catch with the one at line 32, which has the same body.(¯áè8—°ı‰2
+
+java:S1989"mHandle the following exceptions that could be thrown by "process": InvalidAccountException, BadTypeException.(¡âÊ–ıÿÿÿÿ8ª÷î‡2
+L	java:S106("+Replace this use of System.out by a logger.(õü½„ıÿÿÿÿ8—°ı‰2
+L	java:S106+"+Replace this use of System.out by a logger.(¨¶ÑÍşÿÿÿÿ8—°ı‰2
+W
+java:S11610":Add the "@Override" annotation above this method signature(‹¨¯¿8—°ı‰2
+a
+java:S21477"DCombine this catch with the one at line 52, which has the same body.(¯áè8œ°ı‰2
+
+java:S19893"mHandle the following exceptions that could be thrown by "process": InvalidAccountException, BadTypeException.(¡âÊ–ıÿÿÿÿ8œ°ı‰2
+L	java:S106<"+Replace this use of System.out by a logger.(“ı Åøÿÿÿÿ8œ°ı‰2
+L	java:S106?"+Replace this use of System.out by a logger.(¨¶ÑÍşÿÿÿÿ8œ°ı‰2
+Q
+java:S1172C"/Remove this unused method parameter "response".(‹ßëşÿÿÿÿ8œ°ı‰2
+G	java:S106T"+Replace this use of System.out by a logger.(§À“8œ°ı‰2

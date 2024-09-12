@@ -1,0 +1,8 @@
+
+
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(μϋΠώ8α2
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ύ¤Κ²ώÿÿÿÿ8‘α2
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ύµ±ύÿÿÿÿ8‘α2
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(μϋΠώ8‘α2
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ύµ±ύÿÿÿÿ8‘α2
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†α£¤ϊÿÿÿÿ8‘α2

@@ -1,0 +1,23 @@
+
+\
+java:S1161 ":Add the "@Override" annotation above this method signature(Ïû©Öûÿÿÿÿ8¢æÆ„2
+f
+java:S2147."DCombine this catch with the one at line 43, which has the same body.(¥¨›ıÿÿÿÿ8¢æÆ„2
+a
+java:S21471"DCombine this catch with the one at line 46, which has the same body.(åşáÿ8¢æÆ„2
+«
+java:S1989#"ˆHandle the following exceptions that could be thrown by "process": InvalidAccountException, InsufficientFundException, BadTypeException.(¡âÊ–ıÿÿÿÿ8¢æÆ„2
+L	java:S106*"+Replace this use of System.out by a logger.(¨¶ÑÍşÿÿÿÿ8¢æÆ„2
+W
+java:S1161=":Add the "@Override" annotation above this method signature(‹¨¯¿8¨æÆ„2
+f
+java:S2147J"DCombine this catch with the one at line 71, which has the same body.(¥¨›ıÿÿÿÿ8¨æÆ„2
+a
+java:S2147M"DCombine this catch with the one at line 74, which has the same body.(åşáÿ8¨æÆ„2
+«
+java:S1989@"ˆHandle the following exceptions that could be thrown by "process": InvalidAccountException, InsufficientFundException, BadTypeException.(¡âÊ–ıÿÿÿÿ8¨æÆ„2
+L	java:S106F"+Replace this use of System.out by a logger.(¨¶ÑÍşÿÿÿÿ8¨æÆ„2
+L
+java:S1172V"/Remove this unused method parameter "response".(ÒíöĞ8¬æÆ„2
+E
+java:S1481`"(Remove this unused "obj" local variable.(¢ğâ³8¬æÆ„2

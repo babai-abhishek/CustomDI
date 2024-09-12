@@ -1,0 +1,25 @@
+
+W
+java:S1141]"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8¯ƒŠ2
+\
+java:S1161 ":Add the "@Override" annotation above this method signature(Ïû©Öûÿÿÿÿ8è´Æ„2
+f
+java:S2147&"DCombine this catch with the one at line 34, which has the same body.(ÿëÛßúÿÿÿÿ8ÃƒŠ2
+a
+java:S2147)"DCombine this catch with the one at line 37, which has the same body.(Å¡ß8ÃƒŠ2
+f
+java:S2147,"DCombine this catch with the one at line 40, which has the same body.(¥¨›ıÿÿÿÿ8ÃƒŠ2
+a
+java:S2147/"DCombine this catch with the one at line 43, which has the same body.(åşáÿ8ÃƒŠ2
+W
+java:S11618":Add the "@Override" annotation above this method signature(‹¨¯¿8ÃƒŠ2
+f
+java:S2147?"DCombine this catch with the one at line 59, which has the same body.(ÿëÛßúÿÿÿÿ8ÃƒŠ2
+a
+java:S2147B"DCombine this catch with the one at line 62, which has the same body.(Å¡ß8ÃƒŠ2
+f
+java:S2147E"DCombine this catch with the one at line 65, which has the same body.(¥¨›ıÿÿÿÿ8ÃƒŠ2
+a
+java:S2147H"DCombine this catch with the one at line 68, which has the same body.(åşáÿ8ÃƒŠ2
+Q
+java:S1172N"/Remove this unused method parameter "response".(‡ìë—ıÿÿÿÿ8ËƒŠ2

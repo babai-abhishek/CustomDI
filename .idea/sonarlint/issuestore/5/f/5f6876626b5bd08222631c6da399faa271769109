@@ -1,0 +1,23 @@
+
+f	java:S117m"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ¾†¤
+7
+java:S1116"Remove this empty statement.(›‡•ûÿÿÿÿ
+œ
+java:S1186S"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­ßûÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(å±ÿÿÿÿÿ
+P
+java:S1905 "4Remove this unnecessary cast to "PreparedStatement".(æµ©8”Ÿ·‰2
+b
+java:S18585"G"date" is already a string, there's no need to call "toString()" on it.(é–³¬ùÿÿÿÿ
+M
+java:S1135:"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+M
+java:S1135L"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+E	java:S106["+Replace this use of System.out by a logger.(Ç‹ ¤üÿÿÿÿ
+M
+java:S1135Z"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+E	java:S106^"+Replace this use of System.out by a logger.(ëš­Šıÿÿÿÿ
+E	java:S106f"+Replace this use of System.out by a logger.(Çñæøÿÿÿÿ
+@	java:S106q"+Replace this use of System.out by a logger.(§À“
+M
+java:S1135|"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ

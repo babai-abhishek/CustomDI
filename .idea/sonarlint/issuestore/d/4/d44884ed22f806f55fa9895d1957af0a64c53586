@@ -1,0 +1,15 @@
+
+\
+java:S1161$":Add the "@Override" annotation above this method signature(Ïû©Öûÿÿÿÿ8èÃÆ„2
+p
+java:S1989&"NHandle the following exception that could be thrown by "process": IOException.(¡âÊ–ıÿÿÿÿ8ŸÖ„Š2
+W
+java:S1161,":Add the "@Override" annotation above this method signature(‹¨¯¿8ŸÖ„Š2
+p
+java:S1989."NHandle the following exception that could be thrown by "process": IOException.(¡âÊ–ıÿÿÿÿ8ŸÖ„Š2
+Q
+java:S11721"/Remove this unused method parameter "response".(şæ×’ıÿÿÿÿ8§Ö„Š2
+f
+java:S2147G"DCombine this catch with the one at line 67, which has the same body.(¥¨›ıÿÿÿÿ8òÃÆ„2
+a
+java:S2147J"DCombine this catch with the one at line 70, which has the same body.(åşáÿ8òÃÆ„2
