@@ -1,8 +1,16 @@
 # Custom Dependency Injection Framework
 
-This project demonstrates a custom dependency injection (DI) framework using XML configuration and Java Reflection. The framework allows for flexible management of dependencies and business class instantiation and is integrated into a web application using servlets.
+This is for educational purpose. This project will help to understand how dependency injection works inder the hood for the framework like Spring in Java.
 
-## Overview
+This project demonstrates a custom dependency injection (DI) framework using XML configuration and Java Reflection. The framework allows for flexible management of dependencies and business class instantiation and is integrated into a web application using servlets. 
+
+## Benefits
+
+- **Decoupling**: Separates business logic from dependency management, promoting a clean separation of concerns and easier maintenance.
+- **Flexibility**: Easily change dependencies by updating the XML configuration without modifying the codebase, allowing for more adaptable and scalable applications.
+- **Integration**: Seamlessly integrates with servlet-based web applications, enabling effective request handling and business logic management within a web context.
+
+## Overview of the Project
 
 The custom DI framework includes the following components:
 
@@ -11,7 +19,11 @@ The custom DI framework includes the following components:
 3. **Dependency Injection Factory** (`DiFactory.java`): Instantiates business objects and injects their dependencies as defined in the XML configuration.
 4. **Servlet Class** (`BalanceCheckServlet.java`): Demonstrates how to use the DI framework in a web application context.
 
-## XML Configuration
+
+
+## Components
+
+#### _Conf.xml_
 
 The XML configuration file (`Conf.xml`) specifies the business scenarios and their dependencies. Here’s the structure:
 
@@ -43,10 +55,7 @@ Each `<request>` element contains:
 - `type`: A unique identifier for the request.
 - `business-class`: Fully qualified name of the business class.
 - `<helper-class>`: Specifies the type (interface) and implementation (class) of the helper class.
-
-## Components
-
-### XmlParser
+#### _XmlParser.Java_
 
 **Purpose**: Reads and processes the XML configuration to extract relevant business class and dependency information.
 
@@ -129,7 +138,7 @@ public class XmlParser {
     }
 }
 ```
-## DiFactory
+#### _DiFactory.Java_ 
 
 **Purpose**: Provides business class objects with dependencies injected as per the XML configuration.
 
@@ -197,7 +206,7 @@ public class DiFactory {
 }
 ```
 
-## BalanceCheckServlet
+#### _BalanceCheckServlet.Java_
 
 **Purpose**: Demonstrates the use of the custom DI framework within a servlet-based web application.
 
@@ -215,27 +224,6 @@ public class DiFactory {
 2. Uses `DiFactory` to instantiate the `BalanceCheck` business class.
 3. Calls the `execute` method on the business class to get the balance.
 4. Prints the balance to the console.
-
-## Interaction with DiFactory
-
-The servlet interacts with `DiFactory` to obtain and configure an instance of the business class (in this case, `BalanceCheck`). Below is a detailed description of this interaction:
-
-1. **Retrieves Business Object**:
-    - The `getBusinessObject` method in `DiFactory` is called with the request type `"BalanceCheck"`.
-    - This method is responsible for locating and instantiating the required business class based on the type provided.
-
-2. **Instantiates Business Class**:
-    - `DiFactory` uses the XML configuration to determine the fully qualified name of the `BalanceCheck` class.
-    - Using Reflection, `DiFactory` creates an instance of the `BalanceCheck` class dynamically.
-
-3. **Injects Dependencies**:
-    - After creating the `BalanceCheck` instance, `DiFactory` resolves and injects any required dependencies (e.g., `AccountMasterDao`).
-    - Dependencies are injected by invoking the appropriate setter methods on the `BalanceCheck` instance.
-
-4. **Result**:
-    - The servlet receives a fully configured instance of `BalanceCheck`.
-    - The servlet then uses this instance to perform the balance check operation, leveraging the injected dependencies to execute its business logic.
-
 
 **Code Example**:
 
@@ -288,8 +276,22 @@ public class BalanceCheckServlet extends HttpServlet {
     }
 }
 ```
-## Benefits
+### _Interaction between BalanceCheckServlet.Java and DiFactory.Java_
 
-- **Decoupling**: Separates business logic from dependency management, promoting a clean separation of concerns and easier maintenance.
-- **Flexibility**: Easily change dependencies by updating the XML configuration without modifying the codebase, allowing for more adaptable and scalable applications.
-- **Integration**: Seamlessly integrates with servlet-based web applications, enabling effective request handling and business logic management within a web context.
+The servlet interacts with `DiFactory` to obtain and configure an instance of the business class (in this case, `BalanceCheck`). Below is a detailed description of this interaction:
+
+1. **Retrieves Business Object**:
+    - The `getBusinessObject` method in `DiFactory` is called with the request type `"BalanceCheck"`.
+    - This method is responsible for locating and instantiating the required business class based on the type provided.
+
+2. **Instantiates Business Class**:
+    - `DiFactory` uses the XML configuration to determine the fully qualified name of the `BalanceCheck` class.
+    - Using Reflection, `DiFactory` creates an instance of the `BalanceCheck` class dynamically.
+
+3. **Injects Dependencies**:
+    - After creating the `BalanceCheck` instance, `DiFactory` resolves and injects any required dependencies (e.g., `AccountMasterDao`).
+    - Dependencies are injected by invoking the appropriate setter methods on the `BalanceCheck` instance.
+
+4. **Result**:
+    - The servlet receives a fully configured instance of `BalanceCheck`.
+    - The servlet then uses this instance to perform the balance check operation, leveraging the injected dependencies to execute its business logic.
