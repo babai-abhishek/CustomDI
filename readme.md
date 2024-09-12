@@ -146,7 +146,7 @@ public class XmlParser {
 
 **Code Example**:
 
-```
+```java
 package bank.di;
 
 import java.lang.reflect.InvocationTargetException;
