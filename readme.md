@@ -293,8 +293,3 @@ public class BalanceCheckServlet extends HttpServlet {
 - **Decoupling**: Separates business logic from dependency management, promoting a clean separation of concerns and easier maintenance.
 - **Flexibility**: Easily change dependencies by updating the XML configuration without modifying the codebase, allowing for more adaptable and scalable applications.
 - **Integration**: Seamlessly integrates with servlet-based web applications, enabling effective request handling and business logic management within a web context.
-
-## Limitations
-
-- **Complexity**: Reflection and dynamic behavior introduce additional complexity, which may make the system harder to understand and debug.
-- **Performance**: Reflection can impact performance, though typically this impact is minimal. The overhead is generally small but should be considered, especially in performance-critical applications.
